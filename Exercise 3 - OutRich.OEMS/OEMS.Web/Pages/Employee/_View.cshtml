@@ -1,0 +1,25 @@
+@model OEMS.Application.Models.Employee.EmployeeModel
+@using OEMS.Web.Pages.Employee
+<div class="row panel-container">
+    <div class="col-md-12">
+        <div class="form-group">
+                @Html.DisplayLabelWithRequiredTag(model => Model.FirstName, "control-label small")
+                <input asp-for="FirstName" class="form-control form-control-sm" disabled/>
+                <span asp-validation-for="FirstName" class="text-danger small"></span>
+            </div>
+            <div class="form-group">
+                @Html.DisplayLabelWithRequiredTag(model => Model.LastName, "control-label small")
+                <input asp-for="LastName" class="form-control form-control-sm" disabled/>
+                <span asp-validation-for="LastName" class="text-danger small"></span>
+            </div>
+            <div class="form-group">
+                @Html.DisplayLabelWithRequiredTag(model => Model.BirthDate, "control-label small")
+                <input asp-for="BirthDate" class="form-control form-control-sm" disabled/>
+                <span asp-validation-for="BirthDate" class="text-danger small"></span>
+            </div>
+                
+    </div>
+</div>
+
+<script type="text/javascript">   
+</script>

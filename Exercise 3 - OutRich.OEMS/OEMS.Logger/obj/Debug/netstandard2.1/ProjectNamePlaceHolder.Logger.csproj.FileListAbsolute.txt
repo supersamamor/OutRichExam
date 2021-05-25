@@ -1,0 +1,9 @@
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Logger\bin\Debug\netstandard2.1\ProjectNamePlaceHolder.Logger.deps.json
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Logger\bin\Debug\netstandard2.1\ProjectNamePlaceHolder.Logger.dll
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Logger\bin\Debug\netstandard2.1\ProjectNamePlaceHolder.Logger.pdb
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Logger\obj\Debug\netstandard2.1\ProjectNamePlaceHolder.Logger.AssemblyInfoInputs.cache
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Logger\obj\Debug\netstandard2.1\ProjectNamePlaceHolder.Logger.AssemblyInfo.cs
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Logger\obj\Debug\netstandard2.1\ProjectNamePlaceHolder.Logger.dll
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Logger\obj\Debug\netstandard2.1\ProjectNamePlaceHolder.Logger.pdb
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Logger\obj\Debug\netstandard2.1\ProjectNamePlaceHolder.Logger.csproj.CoreCompileInputs.cache
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Logger\obj\Debug\netstandard2.1\ProjectNamePlaceHolder.Logger.csprojAssemblyReference.cache

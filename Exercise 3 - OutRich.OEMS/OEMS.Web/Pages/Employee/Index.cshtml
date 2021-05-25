@@ -1,0 +1,46 @@
+@page
+@model OEMS.Web.Pages.Employee.IndexModel
+@using OEMS.Web.Pages.Employee
+@{
+    ViewData["Title"] = @Resource.LabelEmployeeList;
+}
+<form method="get">
+    <div class="row toolbar-container">
+        <div class="btn-toolbar mb-1 col-sm-6 toolbar-left-panel" role="toolbar">
+            <div class="input-group input-group-sm">
+                <div class="input-group input-group-sm" data-toggle="tooltip" data-placement="top" title="@Resource.LabelAdd">
+                    <a class="input-group-text custom-anchor-button" onclick="@(EmployeeHtmlElementVariables.ShowCreateHandler.JSFunctionTriggerHandler)()" style="cursor:pointer;">
+                        <i class="fas fa-plus text-dark"
+                           aria-hidden="true"></i><span class="btn-label"> @Resource.LabelAdd</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-toolbar mb-1 col-sm-6 toolbar-right-panel" role="toolbar">
+            <div class="col-sm-12" style="margin-right:0px;padding-right:0px;">
+                <div class="input-group input-group-sm" style="margin-right:0px;padding-right:0px;float:right;">
+                    <div class="input-group-prepend input-group-sm">
+                        <button type="submit" class="input-group-text">
+                            <i class="fas fa-search text-dark"
+                               aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <input asp-for="SearchKey" class="form-control" placeholder="Search" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<div id="@EmployeeHtmlElementVariables.EmployeeListingsContainer" class="container-fluid" style="position:relative;min-height:400px;padding-top:5px;">    
+</div>
+@section Scripts {
+    @EmployeeHtmlElementVariables.EmployeeModal.CelerSoftFormModal()
+    @EmployeeHtmlElementVariables.ShowCreateHandler.CelerSoftShowModalTriggerHandlerGetAjax(modal: EmployeeHtmlElementVariables.EmployeeModal)
+    @EmployeeHtmlElementVariables.ShowEditHandler.CelerSoftShowModalTriggerHandlerGetAjax(modal: EmployeeHtmlElementVariables.EmployeeModal)
+    @EmployeeHtmlElementVariables.ShowViewHandler.CelerSoftShowModalTriggerHandlerGetAjax(modal: EmployeeHtmlElementVariables.EmployeeModal)
+    @EmployeeHtmlElementVariables.ShowDeleteHandler.CelerSoftShowModalTriggerHandlerGetAjax(modal: EmployeeHtmlElementVariables.EmployeeModal)
+    @EmployeeHtmlElementVariables.InitializeListHandler.CelerSoftShowModalTriggerHandlerGetAjax(resultType: PageHandlerReturnType.HtmlElement, targetElement: EmployeeHtmlElementVariables.EmployeeListingsContainer, currentModelValues: Model)
+<script type="text/javascript">
+        @(EmployeeHtmlElementVariables.InitializeListHandler.JSFunctionTriggerHandler)();       
+</script>
+}

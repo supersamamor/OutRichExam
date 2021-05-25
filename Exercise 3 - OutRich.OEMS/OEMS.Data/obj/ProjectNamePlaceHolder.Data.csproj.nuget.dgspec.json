@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Data\\ProjectNamePlaceHolder.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Core\\ProjectNamePlaceHolder.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Core\\ProjectNamePlaceHolder.Core.csproj",
+        "projectName": "ProjectNamePlaceHolder.Core",
+        "projectPath": "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Core\\ProjectNamePlaceHolder.Core.csproj",
+        "packagesPath": "C:\\Users\\Lenovo PC 251\\.nuget\\packages\\",
+        "outputPath": "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\NuGet.Config",
+          "C:\\Users\\Lenovo PC 251\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Data\\ProjectNamePlaceHolder.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Data\\ProjectNamePlaceHolder.Data.csproj",
+        "projectName": "ProjectNamePlaceHolder.Data",
+        "projectPath": "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Data\\ProjectNamePlaceHolder.Data.csproj",
+        "packagesPath": "C:\\Users\\Lenovo PC 251\\.nuget\\packages\\",
+        "outputPath": "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\NuGet.Config",
+          "C:\\Users\\Lenovo PC 251\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Core\\ProjectNamePlaceHolder.Core.csproj": {
+                "projectPath": "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Core\\ProjectNamePlaceHolder.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\bin\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Data.deps.json
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\bin\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Data.dll
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\bin\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Data.pdb
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\bin\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Core.dll
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\bin\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Core.pdb
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\obj\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Data.csprojAssemblyReference.cache
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\obj\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Data.AssemblyInfoInputs.cache
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\obj\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Data.AssemblyInfo.cs
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\obj\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Data.csproj.CoreCompileInputs.cache
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\obj\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Data.csproj.CopyComplete
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\obj\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Data.dll
+C:\SuperSam-Asp-.Net-Core-Framework\MonolithV2\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\ProjectNamePlaceHolder.Data\obj\Debug\netcoreapp3.1\ProjectNamePlaceHolder.Data.pdb

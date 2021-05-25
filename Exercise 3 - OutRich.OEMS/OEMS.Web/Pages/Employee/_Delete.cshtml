@@ -1,0 +1,49 @@
+@model OEMS.Application.Models.Employee.EmployeeModel
+@using OEMS.Web.Pages.Employee
+<form method="get" style="margin-bottom:5px;">
+    <div class="row toolbar-container">
+        <div class="btn-toolbar mb-1 col-12" role="toolbar">
+            <div class="input-group input-group-sm">
+                <div class="input-group input-group-sm" data-toggle="tooltip" data-placement="top" title="@Resource.LabelDelete" onclick="@(EmployeeHtmlElementVariables.DeleteHandler.JSFunctionTriggerHandler)();">
+                    <a class="input-group-text custom-anchor-button" href="#">
+                        <i class="fas fa-trash"></i><span class="btn-label"> @Resource.LabelDelete</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+@Html.CelerSoftPromptMessageContainer(EmployeeHtmlElementVariables.EmployeeFormPromptContainer)
+<div class="row panel-container">
+    <div class="col-md-12">
+        <form method="post" asp-page-handler="@EmployeeHtmlElementVariables.DeleteHandler.Name" id="@EmployeeHtmlElementVariables.EmployeeForm">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                @Html.DisplayLabelWithRequiredTag(model => Model.FirstName, "control-label small")
+                <input asp-for="FirstName" class="form-control form-control-sm" disabled/>
+                <span asp-validation-for="FirstName" class="text-danger small"></span>
+            </div>
+            <div class="form-group">
+                @Html.DisplayLabelWithRequiredTag(model => Model.LastName, "control-label small")
+                <input asp-for="LastName" class="form-control form-control-sm" disabled/>
+                <span asp-validation-for="LastName" class="text-danger small"></span>
+            </div>
+            <div class="form-group">
+                @Html.DisplayLabelWithRequiredTag(model => Model.BirthDate, "control-label small")
+                <input asp-for="BirthDate" class="form-control form-control-sm" type="date" disabled/>
+                <span asp-validation-for="BirthDate" class="text-danger small"></span>
+            </div>
+            
+        </form>
+    </div>
+</div>
+
+
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+@EmployeeHtmlElementVariables.DeleteHandler.CelerSoftTriggerHandlerPost(modal: EmployeeHtmlElementVariables.EmployeeModal,
+    promptMessageContainer: @EmployeeHtmlElementVariables.EmployeeFormPromptContainer.Name,
+    formName: EmployeeHtmlElementVariables.EmployeeForm,
+    confirmationMessage: Resource.PromptMessageDeleteConfirmation)
+<script type="text/javascript">
+</script>

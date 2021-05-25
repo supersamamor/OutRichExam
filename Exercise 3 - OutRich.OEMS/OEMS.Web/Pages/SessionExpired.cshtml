@@ -1,0 +1,16 @@
+@page
+@model SessionExpiredModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Session Expired.</h1>
+<h2 class="text-danger">Session has expired, please relogin and try again or contact the system administrator.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+

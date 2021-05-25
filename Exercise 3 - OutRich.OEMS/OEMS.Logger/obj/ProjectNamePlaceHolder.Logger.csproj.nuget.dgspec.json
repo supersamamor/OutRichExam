@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Logger\\ProjectNamePlaceHolder.Logger.csproj": {}
+  },
+  "projects": {
+    "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Logger\\ProjectNamePlaceHolder.Logger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Logger\\ProjectNamePlaceHolder.Logger.csproj",
+        "projectName": "ProjectNamePlaceHolder.Logger",
+        "projectPath": "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Logger\\ProjectNamePlaceHolder.Logger.csproj",
+        "packagesPath": "C:\\Users\\Lenovo PC 251\\.nuget\\packages\\",
+        "outputPath": "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\ProjectNamePlaceHolder.Logger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\SuperSam-Asp-.Net-Core-Framework\\MonolithV2\\CompanyNamePlaceHolder.ProjectNamePlaceHolder.Web\\NuGet.Config",
+          "C:\\Users\\Lenovo PC 251\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Correlate.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
